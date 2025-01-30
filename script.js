@@ -29,6 +29,9 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     })
   }
+  gsap.set(".revealer",{
+    scale:1,
+  })
 
   gsap.set(".revealer svg",{
     scale:0,
